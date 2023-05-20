@@ -43,7 +43,7 @@ ResultLength2 = containsDuplicateLength( nums2 )
 CountLength1 = containsDuplicateCount( nums1 )
 CountLength2 = containsDuplicateCount( nums2 )
 
-print( 'Results: ' )
+print( 'Results:' )
 print( 'ResultLength1:', ResultLength1, '| ResultLength2: ', ResultLength2 )
 print( 'CountLength1:', CountLength1, '| CountLength2:', CountLength2 )
 
