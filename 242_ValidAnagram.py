@@ -2,6 +2,7 @@
 # Given two strings s and t, return true if t is an
 # anagram of s, and false otherwise.
 
+# -------------------------------------------------------------
 # SOLUTION 1: Sort String
 #   Use the 'sorted' method provided by Python to sort
 #   the strings. After sorting the strings, they can be
