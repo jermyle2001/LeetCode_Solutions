@@ -4,6 +4,13 @@
 # elements sequence.
 # You must write an algorithm that runs in O( n ) time.
 
+# -------------------------------------------------------------
+# SOLUTION 1: Brute Force
+# We will place the elements of nums into a set, in O( n ) time.
+# Then, we using the *in* operator for set, which is given as 
+# O( 1 ) time, we will search for elements immediately lower or
+# higher than each element, and remove them accordingly, keeping
+# track of the length of the sequence.
 def longestConsecutive( nums ):
     # Create and place values of num into set
     nums_set = set( nums )
